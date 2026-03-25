@@ -7069,3 +7069,62 @@ By category:
 2026-03-25 01:22:57,846 - INFO - 
 ✅ Done! Push to GitHub to serve your playlists.
 2026-03-25 01:22:57,846 - INFO - ============================================================
+2026-03-25 06:54:02,084 - INFO - ============================================================
+2026-03-25 06:54:02,084 - INFO - 🇮🇳 India IPTV Playlist Generator Starting
+2026-03-25 06:54:02,085 - INFO - ============================================================
+2026-03-25 06:54:02,857 - INFO - 
+📦 Generating Cloudflare Worker for geo-bypass...
+2026-03-25 06:54:02,858 - INFO - Cloudflare Worker saved: docs/cloudflare_worker.js
+2026-03-25 06:54:02,858 - INFO - Streamlink script saved: scripts/play_channel.sh
+2026-03-25 06:54:02,858 - INFO - 
+🔍 Scraping IPTVCat India channels...
+2026-03-25 06:54:02,858 - INFO - Starting scrape of IPTVCat India...
+2026-03-25 06:54:03,516 - WARNING - Attempt 1 failed for https://iptvcat.com/india: 502 Server Error: Bad Gateway for url: https://iptvcat.com/india
+2026-03-25 06:54:04,710 - WARNING - Attempt 2 failed for https://iptvcat.com/india: 502 Server Error: Bad Gateway for url: https://iptvcat.com/india
+2026-03-25 06:54:09,578 - INFO - Scraping page 1/5: https://iptvcat.com/india
+2026-03-25 06:54:12,104 - INFO -   Found 200 channels on this page
+2026-03-25 06:54:13,104 - INFO - Scraping page 2/5: https://iptvcat.com/india__7/2
+2026-03-25 06:54:14,528 - INFO -   Found 200 channels on this page
+2026-03-25 06:54:15,528 - INFO - Scraping page 3/5: https://iptvcat.com/india__7/3
+2026-03-25 06:54:16,959 - INFO -   Found 200 channels on this page
+2026-03-25 06:54:17,959 - INFO - Scraping page 4/5: https://iptvcat.com/india__7/4
+2026-03-25 06:54:19,071 - INFO -   Found 200 channels on this page
+2026-03-25 06:54:20,071 - INFO - Scraping page 5/5: https://iptvcat.com/india__7/5
+2026-03-25 06:54:21,674 - INFO -   Found 200 channels on this page
+2026-03-25 06:54:22,675 - INFO - Filtered to 1000 online channels (from 1000)
+2026-03-25 06:54:22,675 - INFO - Final unique channels: 500
+2026-03-25 06:54:22,675 - INFO - 
+✅ Scraped 500 channels
+2026-03-25 06:54:22,675 - INFO - 
+🌐 Applying geo-bypass configuration...
+2026-03-25 06:54:22,678 - INFO - Applied proxy to 0 potentially geo-blocked channels
+2026-03-25 06:54:22,678 - INFO - 
+📝 Generating playlists...
+2026-03-25 06:54:22,681 - INFO - M3U playlist saved: output/india_iptv.m3u (500 channels)
+2026-03-25 06:54:22,681 - INFO -   ✅ Main playlist: output/india_iptv.m3u
+2026-03-25 06:54:22,681 - INFO -   📂 Generating per-category playlists...
+2026-03-25 06:54:22,684 - INFO - M3U playlist saved: output/india_general.m3u (500 channels)
+2026-03-25 06:54:22,684 - INFO -   General: 500 channels → india_general.m3u
+2026-03-25 06:54:22,690 - INFO - JSON index saved: output/channels.json
+2026-03-25 06:54:22,690 - INFO -   ✅ JSON index: output/channels.json
+2026-03-25 06:54:22,690 - INFO - README saved: README.md
+2026-03-25 06:54:22,690 - INFO -   ✅ README: README.md
+2026-03-25 06:54:22,691 - INFO - 
+============================================================
+2026-03-25 06:54:22,691 - INFO - 📊 SUMMARY
+2026-03-25 06:54:22,691 - INFO - ============================================================
+2026-03-25 06:54:22,691 - INFO - Total channels: 500
+2026-03-25 06:54:22,691 - INFO - 
+By category:
+2026-03-25 06:54:22,691 - INFO -   General                        500 channels
+2026-03-25 06:54:22,691 - INFO - 
+📁 Output files:
+2026-03-25 06:54:22,691 - INFO -   output/india_iptv.m3u         - Main playlist
+2026-03-25 06:54:22,691 - INFO -   output/channels.json           - Channel index
+2026-03-25 06:54:22,691 - INFO -   output/india_*.m3u             - Per-category playlists
+2026-03-25 06:54:22,691 - INFO -   docs/cloudflare_worker.js      - Geo-bypass worker
+2026-03-25 06:54:22,691 - INFO -   scripts/play_channel.sh        - Streamlink script
+2026-03-25 06:54:22,691 - INFO -   README.md                      - Documentation
+2026-03-25 06:54:22,691 - INFO - 
+✅ Done! Push to GitHub to serve your playlists.
+2026-03-25 06:54:22,691 - INFO - ============================================================
