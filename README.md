@@ -1,6 +1,6 @@
 # 🇮🇳 India IPTV Playlist
 
-**Auto-generated on:** 2026-04-01 12:59 UTC
+**Auto-generated on:** 2026-04-01 18:49 UTC
 
 **Total Channels:** 500
 
