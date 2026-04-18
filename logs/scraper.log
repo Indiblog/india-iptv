@@ -12486,3 +12486,65 @@ By category:
 2026-04-17 18:46:10,598 - INFO - 
 ✅ Done! Push to GitHub to serve your playlists.
 2026-04-17 18:46:10,598 - INFO - ============================================================
+2026-04-18 01:28:46,277 - INFO - ============================================================
+2026-04-18 01:28:46,277 - INFO - 🇮🇳 India IPTV Playlist Generator Starting
+2026-04-18 01:28:46,277 - INFO - ============================================================
+2026-04-18 01:28:46,742 - INFO - 
+📦 Generating Cloudflare Worker for geo-bypass...
+2026-04-18 01:28:46,743 - INFO - Cloudflare Worker saved: docs/cloudflare_worker.js
+2026-04-18 01:28:46,743 - INFO - Streamlink script saved: scripts/play_channel.sh
+2026-04-18 01:28:46,743 - INFO - 
+🔍 Scraping IPTVCat India channels...
+2026-04-18 01:28:46,743 - INFO - Starting scrape of IPTVCat India...
+2026-04-18 01:28:56,107 - WARNING - Attempt 1 failed for https://iptvcat.com/india: 502 Server Error: Bad Gateway for url: https://iptvcat.com/india__7
+2026-04-18 01:28:59,858 - INFO - Scraping page 1/5: https://iptvcat.com/india
+2026-04-18 01:29:00,908 - WARNING - Attempt 1 failed for https://iptvcat.com/india: 502 Server Error: Bad Gateway for url: https://iptvcat.com/india__7
+2026-04-18 01:29:05,155 - WARNING - Attempt 2 failed for https://iptvcat.com/india: 502 Server Error: Bad Gateway for url: https://iptvcat.com/india__7
+2026-04-18 01:29:09,801 - INFO -   Found 200 channels on this page
+2026-04-18 01:29:10,802 - INFO - Scraping page 2/5: https://iptvcat.com/india__7/2
+2026-04-18 01:29:12,255 - INFO -   Found 200 channels on this page
+2026-04-18 01:29:13,255 - INFO - Scraping page 3/5: https://iptvcat.com/india__7/3
+2026-04-18 01:29:14,647 - INFO -   Found 200 channels on this page
+2026-04-18 01:29:15,647 - INFO - Scraping page 4/5: https://iptvcat.com/india__7/4
+2026-04-18 01:29:17,025 - INFO -   Found 200 channels on this page
+2026-04-18 01:29:18,026 - INFO - Scraping page 5/5: https://iptvcat.com/india__7/5
+2026-04-18 01:29:18,203 - WARNING - Attempt 1 failed for https://iptvcat.com/india__7/5: 502 Server Error: Bad Gateway for url: https://iptvcat.com/india__7/5
+2026-04-18 01:29:19,364 - WARNING - Attempt 2 failed for https://iptvcat.com/india__7/5: 502 Server Error: Bad Gateway for url: https://iptvcat.com/india__7/5
+2026-04-18 01:29:21,524 - WARNING - Attempt 3 failed for https://iptvcat.com/india__7/5: 502 Server Error: Bad Gateway for url: https://iptvcat.com/india__7/5
+2026-04-18 01:29:25,524 - INFO - Filtered to 800 online channels (from 800)
+2026-04-18 01:29:25,524 - INFO - Final unique channels: 400
+2026-04-18 01:29:25,525 - INFO - 
+✅ Scraped 400 channels
+2026-04-18 01:29:25,525 - INFO - 
+🌐 Applying geo-bypass configuration...
+2026-04-18 01:29:25,527 - INFO - Applied proxy to 0 potentially geo-blocked channels
+2026-04-18 01:29:25,527 - INFO - 
+📝 Generating playlists...
+2026-04-18 01:29:25,529 - INFO - M3U playlist saved: output/india_iptv.m3u (400 channels)
+2026-04-18 01:29:25,529 - INFO -   ✅ Main playlist: output/india_iptv.m3u
+2026-04-18 01:29:25,529 - INFO -   📂 Generating per-category playlists...
+2026-04-18 01:29:25,531 - INFO - M3U playlist saved: output/india_general.m3u (400 channels)
+2026-04-18 01:29:25,531 - INFO -   General: 400 channels → india_general.m3u
+2026-04-18 01:29:25,536 - INFO - JSON index saved: output/channels.json
+2026-04-18 01:29:25,536 - INFO -   ✅ JSON index: output/channels.json
+2026-04-18 01:29:25,536 - INFO - README saved: README.md
+2026-04-18 01:29:25,536 - INFO -   ✅ README: README.md
+2026-04-18 01:29:25,537 - INFO - 
+============================================================
+2026-04-18 01:29:25,537 - INFO - 📊 SUMMARY
+2026-04-18 01:29:25,537 - INFO - ============================================================
+2026-04-18 01:29:25,537 - INFO - Total channels: 400
+2026-04-18 01:29:25,537 - INFO - 
+By category:
+2026-04-18 01:29:25,537 - INFO -   General                        400 channels
+2026-04-18 01:29:25,537 - INFO - 
+📁 Output files:
+2026-04-18 01:29:25,537 - INFO -   output/india_iptv.m3u         - Main playlist
+2026-04-18 01:29:25,537 - INFO -   output/channels.json           - Channel index
+2026-04-18 01:29:25,537 - INFO -   output/india_*.m3u             - Per-category playlists
+2026-04-18 01:29:25,537 - INFO -   docs/cloudflare_worker.js      - Geo-bypass worker
+2026-04-18 01:29:25,537 - INFO -   scripts/play_channel.sh        - Streamlink script
+2026-04-18 01:29:25,537 - INFO -   README.md                      - Documentation
+2026-04-18 01:29:25,537 - INFO - 
+✅ Done! Push to GitHub to serve your playlists.
+2026-04-18 01:29:25,537 - INFO - ============================================================
