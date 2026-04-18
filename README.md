@@ -1,8 +1,8 @@
 # 🇮🇳 India IPTV Playlist
 
-**Auto-generated on:** 2026-04-18 01:29 UTC
+**Auto-generated on:** 2026-04-18 06:58 UTC
 
-**Total Channels:** 400
+**Total Channels:** 500
 
 ---
 
@@ -10,8 +10,8 @@
 
 | Playlist | Channels | Link |
 |----------|----------|------|
-| 🇮🇳 All India | 400 | [india_iptv.m3u](output/india_iptv.m3u) |
-| General | 400 | [india_general.m3u](output/india_general.m3u) |
+| 🇮🇳 All India | 500 | [india_iptv.m3u](output/india_iptv.m3u) |
+| General | 500 | [india_general.m3u](output/india_general.m3u) |
 
 ---
 
@@ -53,6 +53,106 @@ Some channels may be geo-restricted. See [VPN Setup Guide](docs/vpn_setup.md) fo
 
 ### General
 
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
+- Download
 - Download
 - Download
 - Download
