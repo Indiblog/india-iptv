@@ -37864,3 +37864,60 @@ By category:
 2026-08-07 12:42:11,428 - INFO - 
 ✅ Done! Push to GitHub to serve your playlists.
 2026-08-07 12:42:11,428 - INFO - ============================================================
+2026-08-07 18:41:19,727 - INFO - ============================================================
+2026-08-07 18:41:19,727 - INFO - 🇮🇳 India IPTV Playlist Generator Starting
+2026-08-07 18:41:19,727 - INFO - ============================================================
+2026-08-07 18:41:19,912 - INFO - 
+📦 Generating Cloudflare Worker for geo-bypass...
+2026-08-07 18:41:19,913 - INFO - Cloudflare Worker saved: docs/cloudflare_worker.js
+2026-08-07 18:41:19,913 - INFO - Streamlink script saved: scripts/play_channel.sh
+2026-08-07 18:41:19,913 - INFO - 
+🔍 Scraping IPTVCat India channels...
+2026-08-07 18:41:19,913 - INFO - Starting scrape of IPTVCat India...
+2026-08-07 18:41:21,319 - INFO - Scraping page 1/5: https://iptvcat.com/india
+2026-08-07 18:41:21,992 - INFO -   Found 200 channels on this page
+2026-08-07 18:41:22,992 - INFO - Scraping page 2/5: https://iptvcat.com/india__7/2
+2026-08-07 18:41:23,644 - INFO -   Found 200 channels on this page
+2026-08-07 18:41:24,644 - INFO - Scraping page 3/5: https://iptvcat.com/india__7/3
+2026-08-07 18:41:25,281 - INFO -   Found 200 channels on this page
+2026-08-07 18:41:26,281 - INFO - Scraping page 4/5: https://iptvcat.com/india__7/4
+2026-08-07 18:41:26,954 - INFO -   Found 200 channels on this page
+2026-08-07 18:41:27,955 - INFO - Scraping page 5/5: https://iptvcat.com/india__7/5
+2026-08-07 18:41:28,772 - INFO -   Found 200 channels on this page
+2026-08-07 18:41:29,773 - INFO - Filtered to 1000 online channels (from 1000)
+2026-08-07 18:41:29,773 - INFO - Final unique channels: 500
+2026-08-07 18:41:29,773 - INFO - 
+✅ Scraped 500 channels
+2026-08-07 18:41:29,773 - INFO - 
+🌐 Applying geo-bypass configuration...
+2026-08-07 18:41:29,776 - INFO - Applied proxy to 0 potentially geo-blocked channels
+2026-08-07 18:41:29,776 - INFO - 
+📝 Generating playlists...
+2026-08-07 18:41:29,779 - INFO - M3U playlist saved: output/india_iptv.m3u (500 channels)
+2026-08-07 18:41:29,779 - INFO -   ✅ Main playlist: output/india_iptv.m3u
+2026-08-07 18:41:29,779 - INFO -   📂 Generating per-category playlists...
+2026-08-07 18:41:29,782 - INFO - M3U playlist saved: output/india_general.m3u (500 channels)
+2026-08-07 18:41:29,782 - INFO -   General: 500 channels → india_general.m3u
+2026-08-07 18:41:29,788 - INFO - JSON index saved: output/channels.json
+2026-08-07 18:41:29,789 - INFO -   ✅ JSON index: output/channels.json
+2026-08-07 18:41:29,789 - INFO - README saved: README.md
+2026-08-07 18:41:29,789 - INFO -   ✅ README: README.md
+2026-08-07 18:41:29,789 - INFO - 
+============================================================
+2026-08-07 18:41:29,789 - INFO - 📊 SUMMARY
+2026-08-07 18:41:29,789 - INFO - ============================================================
+2026-08-07 18:41:29,789 - INFO - Total channels: 500
+2026-08-07 18:41:29,789 - INFO - 
+By category:
+2026-08-07 18:41:29,789 - INFO -   General                        500 channels
+2026-08-07 18:41:29,789 - INFO - 
+📁 Output files:
+2026-08-07 18:41:29,789 - INFO -   output/india_iptv.m3u         - Main playlist
+2026-08-07 18:41:29,789 - INFO -   output/channels.json           - Channel index
+2026-08-07 18:41:29,790 - INFO -   output/india_*.m3u             - Per-category playlists
+2026-08-07 18:41:29,790 - INFO -   docs/cloudflare_worker.js      - Geo-bypass worker
+2026-08-07 18:41:29,790 - INFO -   scripts/play_channel.sh        - Streamlink script
+2026-08-07 18:41:29,790 - INFO -   README.md                      - Documentation
+2026-08-07 18:41:29,790 - INFO - 
+✅ Done! Push to GitHub to serve your playlists.
+2026-08-07 18:41:29,790 - INFO - ============================================================
